@@ -1,3 +1,4 @@
 name: CloudLobby
 version: 0.1
 main: de.muv1n.CloudLobby
+api-version: 1.19
