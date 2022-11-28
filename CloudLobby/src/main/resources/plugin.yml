@@ -2,3 +2,8 @@ name: CloudLobby
 version: 0.1
 main: de.muv1n.CloudLobby
 api-version: 1.19
+permissions:
+  lobby.build:
+    default: op
+  lobby.break:
+    default: op

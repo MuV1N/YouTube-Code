@@ -11,7 +11,6 @@ public class JoinListener implements Listener {
     @EventHandler
     public void handle(PlayerJoinEvent e){
         var player = e.getPlayer();
-        e.joinMessage(Component.text("TETS"));
         player.getInventory().setItem(1, new ItemBuilder(Material.COMPASS).setName("Navigator").build());
     }
 }
